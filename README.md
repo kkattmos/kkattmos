@@ -7,7 +7,7 @@ Won 2nd prize at AiHack2025 with a credit-risk classifier and national 1st place
 ## Competitions and Awards
 
 - **DOH Hackathon 2026** – Semi-finalist (Top 20 Teams) · _May 2026 – Jun 2026_
-  - Proposed a YOLO model for detecting false and misleading signs on Thailand's highways
+  - Proposed "SignScan AI", a YOLO model for detecting false and misleading signs on Thailand's highways
 - **InterCSII Hackathon 2026** – Semi-finalist (Top 20 Teams) · _Jan 2026_
   - Proposed **LogiQuest**, an AI retention tool for ensuring users' reasoning on generative AI
 - **AiHack 2025** – 2nd Prize (ranked by AUC) · _Oct 2025 – Dec 2025_
@@ -26,7 +26,7 @@ Won 2nd prize at AiHack2025 with a credit-risk classifier and national 1st place
 - **TESET #3 and #4 (English)** – Silver medal level
 - **HackathonXNITAD18th** – 4th runner-up with **Mascavator**, an idea for managing face-mask waste
 - **APRSAF-26 Water Rocket Event (Sagamihara, Japan)** – Gold medal, representing Thailand among 64 competitors from 13 countries · _Nov 2019_
-- **TSAF #17 Water Rocket Design Challenge** – 1st place, earning the place on Thailand's APRSAF team · _2019_
+- **TSAF #17 Water Rocket Design Challenge** – 1st place, earning the place on Thailand's APRSAF team · _Oct 2018_
 
 </details>
 
@@ -34,9 +34,10 @@ Won 2nd prize at AiHack2025 with a credit-risk classifier and national 1st place
 
 - **Software Project Team Lead, Head of IT Department** – The Coming of Stages (TCOS) · _Mar 2026 – Present_
   - Lead TCOS's software team across multiple web projects, running Agile sprints and coordinating requirements across departments
-  - Led a 4-member team to ship an enrollment platform (Next.js, Express, MongoDB) handling 283 registrations across 6 Ruam Pol Musical Club activities
+  - Led a 4-member team to ship an **[enrollment platform](https://github.com/thecomingofstages/enroll-website)** (Next.js, Express, MongoDB) handling 283 registrations across 6 Ruam Pol Musical Club activities
   - Built a real-time sync from MongoDB Atlas to Google Sheets using Atlas Database Triggers and a Google Apps Script web app
-  - Designed a reusable authorization architecture and a Discord bot that assigns roles and nicknames to 225 staff
+  - Designed a reusable authorization architecture and a **[Discord bot](https://github.com/thecomingofstages/discord-role-grant)** that assigns roles and nicknames to 225 staff from Google Sheets data
+  - Managing the development of a **[finance tracking website](https://github.com/thecomingofstages/finance-tracking)** (Next.js, Express, Supabase) and a merchandise website for online orders
   - Administer TCOS's Google Workspace, managing security and access control for staff accounts
 - **Class President** – ICT & Strategic Management #38 · _Jun 2026 – Jul 2026_
   - Designed a student registration and assignment-submission architecture in Google Sheets
@@ -50,48 +51,32 @@ Won 2nd prize at AiHack2025 with a credit-risk classifier and national 1st place
 - **Registration Staff:** Vishnu23rd, VOLGOLEY2025, FEST2025, Byenior2026
 - **Backstage Staff:** Vishnu23rd (Kok ka wee), Hello CP52, ComSampan2025
 
-## Projects
+## Class Projects
 
-- **[TCOS Enrollment Website](https://github.com/thecomingofstages/enroll-website)** – Enrollment platform for 6 Ruam Pol Musical Club activities (Next.js, Express, MongoDB)
-- **[TCOS Discord Role Grant](https://github.com/thecomingofstages/discord-role-grant)** – Discord bot assigning roles and nicknames to 225 staff from Google Sheets data
-- **[Tutorist](https://github.com/FaFaFront/se-project/)** – Software Engineering final project · _Aug 2026 – Present_
+- **[Tutorist](https://github.com/FaFaFront/se-project/)** – Software Engineering · _Aug 2026 – Present_
   - CI pipeline with GitHub Actions and automatic Vercel deployments; searchable tutor classroom list (Express, Prisma/PostgreSQL, Next.js) and JWT-secured profile APIs
-- **[POP NATTEE](https://github.com/kkattmos/POP-NATTEE)** – Computer Engineering Essentials final project · _Oct 2025 – Nov 2025_
-  - Built the pure-CSS frontend, integrated it with a Node.js API, and deployed to Render
-- **studywkkattmos** – Personal project · _Aug 2021 – Mar 2024_
-  - Django website distributing summary sheets for Triam Udom Suksa School's exams, with over 1,000 downloads per academic year
-
-<details>
-<summary><b>More projects</b></summary>
-
-- **[TCOS Finance Tracking](https://github.com/thecomingofstages/finance-tracking)** – Finance tracking website for TCOS (Next.js, Express, Supabase) · _2026_
-- **TCOS Merchandise Website** – Online ordering site for TCOS merchandise, with a LINE webhook and an admin manual · _2025 – 2026_
-- **SignScan AI** – DOH Hackathon 2026 · _May 2026 – Jun 2026_
-  - YOLO pipeline for detecting false and directionally misleading signs on Thai highways
-- **OV7670 → VGA Real-Time Filter Pipeline** – Hardware Synthesis Lab final project · _Apr 2026 – May 2026_
+- **OV7670 → VGA Real-Time Filter Pipeline** – Hardware Synthesis Lab · _Apr 2026 – May 2026_
   - Live camera capture on a Basys 3 (Artix-7) FPGA with switch-selectable image filters and 640×480 VGA output, verified with cocotb + Icarus Verilog
-- **Tutoring Class Database** – Database Systems project · _2026_
+- **Tutoring Class Database** – Database Systems · _2026_
   - SQL schema with stored procedures and functions for enrolment, tutor withdrawal, class availability and time-slot conflict checks
-- **iCanteen Usage Behaviour Study** – Statistics project · _2025_
+- **[POP NATTEE](https://github.com/kkattmos/POP-NATTEE)** – Computer Engineering Essentials · _Oct 2025 – Nov 2025_
+  - Built the pure-CSS frontend, integrated it with a Node.js API, and deployed to Render
+- **iCanteen Usage Behaviour Study** – Statistics · _2025_
   - Surveyed students' canteen usage and analysed the results with Excel and SPSS
-- **Gift Order Randomization** – High school project
-  - A gift-exchange draw app built on Thunkable and used by classmates at a New Year party
 
-</details>
+## Personal Projects
+
+- **[meeting-transcriber](https://github.com/kkattmos/meeting-transcriber)** · _Jul 2026 – Present_
+  - Self-hosted bot on Proxmox that joins Google Meet or Zoom in a containerised Chrome, records to MP4, transcribes it, and writes an AI summary combining the transcript with keyframes (Gemini, Claude, Ollama); also works on YouTube links and local videos
+- **studywkkattmos** · _Aug 2021 – Mar 2024_
+  - Django website distributing summary sheets for Triam Udom Suksa School's exams, with over 1,000 downloads per academic year
+- **Gift Order Randomization** · _Nov 2022 - Dec 2022_
+  - A gift-exchange draw app built on Thunkable and used by classmates at a New Year party
 
 ## Certifications
 
 - **Certiport:** Excel 2019 (Associate), Excel 365 (Associate, Expert), Word 365 (Associate, Expert), PowerPoint 365 (Associate)
 - **ICDL (International Certification of Digital Literacy):** Spreadsheets 2016 (97%), Artificial Intelligence (90%), Big Data (85%)
-
-<details>
-<summary><b>More certifications</b></summary>
-
-- **Microsoft Office Specialist: Expert (Microsoft 365 Apps)** – Certiport · _Mar 2026_
-- **Crunching Data with Pandas** – Chula MOOC Flexi · _Apr 2026_
-- **ICDL Spreadsheets (MS Excel 2013)**
-
-</details>
 
 ## GitHub Stats
 
