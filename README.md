@@ -80,13 +80,23 @@ Won 2nd prize at AiHack2025 with a credit-risk classifier and national 1st place
 
 ## GitHub Stats
 
-<p align="center">
-  - <img height="170" src="https://github-readme-stats.vercel.app/api?username=kkattmos&show_icons=true&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub stats" />
-  - <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kkattmos&layout=compact&langs_count=8&hide_border=true" alt="Most used languages" />
-</p>
-<p align="center">
-  - <img src="https://streak-stats.demolab.com/?user=kkattmos&hide_border=true" alt="GitHub streak" />
-</p>
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=kkattmos&show_icons=true&count_private=true&hide_border=true&rank_icon=github&card_width=420&theme=github_dark" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kkattmos&show_icons=true&count_private=true&hide_border=true&rank_icon=github&card_width=420&theme=default" alt="GitHub stats" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=kkattmos&layout=compact&langs_count=8&hide_border=true&card_width=340&theme=github_dark" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kkattmos&layout=compact&langs_count=8&hide_border=true&card_width=340&theme=default" alt="Most used languages" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=kkattmos&hide_border=true&theme=github-dark-blue" />
+  <img height="190" src="https://streak-stats.demolab.com/?user=kkattmos&hide_border=true&theme=default" alt="GitHub streak" />
+</picture>
+
+</div>
 
 ## Tech Stack
 
